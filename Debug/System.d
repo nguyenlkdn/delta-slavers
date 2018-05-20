@@ -36,7 +36,10 @@ System.obj: /home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/pwm.h
 System.obj: /home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/ssi.h
 System.obj: /home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/flash.h
 System.obj: /home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/systick.h
+System.obj: /home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/qei.h
 System.obj: ../System.h
+System.obj: ../PIDPosistion.h
+System.obj: ../main.h
 
 ../System.c: 
 ../main.h: 
@@ -74,4 +77,7 @@ System.obj: ../System.h
 /home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/ssi.h: 
 /home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/flash.h: 
 /home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/systick.h: 
+/home/sdev/ti/SW-TM4C-2.1.4.178/driverlib/qei.h: 
 ../System.h: 
+../PIDPosistion.h: 
+../main.h: 

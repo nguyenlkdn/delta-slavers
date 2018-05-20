@@ -19,15 +19,11 @@ void cfg_timer(void);
 void cfg_interrupt(void);
 void cfg_port(void);
 void cfg_peripheral(void);
-void cfg_ssi0(void);
 void cfg_pwm(void);
-void cfg_adc(void);
 void cfg_systick(void);
 void cfg_qei(void);
 void init(void);
 void DisableTimer(uint8_t timer_number);
 void EnableTimer(uint8_t timer_number);
 void PrintBinary(unsigned short data);
-void TurnOnBuzzer(void);
-void TurnOffBuzzer(void);
 #endif /* SYSTEMCTL_H_ */

@@ -30,7 +30,9 @@
 #include "driverlib/ssi.h"
 #include "driverlib/flash.h"
 #include "driverlib/systick.h"
+#include "driverlib/qei.h"
 #include "System.h"
+#include "PIDPosistion.h"
 /*
  *
  */
@@ -46,3 +48,4 @@
 #define BIT5	0x20
 #define BIT6	0x40
 #define BIT7	0x80
+

@@ -8,6 +8,7 @@ GEN_OPTS__FLAG :=
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
+"./PIDPosistion.obj" \
 "./System.obj" \
 "./main.obj" \
 "./startup_ccs.obj" \
@@ -161,8 +162,8 @@ TM4C123_delta-slavers.bin: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "System.obj" "main.obj" "startup_ccs.obj" "utils/cpu_usage.obj" "utils/uartstdio.obj" "utils/ustdlib.obj" 
-	-$(RM) "System.d" "main.d" "startup_ccs.d" "utils/cpu_usage.d" "utils/uartstdio.d" "utils/ustdlib.d" 
+	-$(RM) "PIDPosistion.obj" "System.obj" "main.obj" "startup_ccs.obj" "utils/cpu_usage.obj" "utils/uartstdio.obj" "utils/ustdlib.obj" 
+	-$(RM) "PIDPosistion.d" "System.d" "main.d" "startup_ccs.d" "utils/cpu_usage.d" "utils/uartstdio.d" "utils/ustdlib.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 
